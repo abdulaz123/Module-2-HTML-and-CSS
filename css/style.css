@@ -1,0 +1,52 @@
+			body {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			.chicken {
+				background-color:#f5afa9;
+			}
+			.beef {
+				background-color:#c95349;
+				color:white;
+			}
+			.sushi {
+				background-color:#d9d56c;
+			}
+			#title {
+				margin:0px;
+				width:120px;
+				margin-left:calc(100% - 120px);
+				padding:5px;
+				text-align:center;
+				border:solid 1px;
+				border-color:black;
+				box-sizing: border-box;
+			}
+			#card {
+				background-color:grey;
+				padding-left:15px;
+				width:100%;
+				float:left;
+				border:solid 1px;
+				box-sizing: border-box;
+			}
+			#container-1, #container-2 {
+				width:calc(33% - 20px);
+				float:left;
+				padding:10px;
+			}
+			@media screen and (max-width: 991px) {
+				#container-1 {
+					width:calc(50% - 20px);
+				}
+				#container-2 {
+					width:calc(100% - 20px);
+				}
+			}
+			@media screen and (max-width: 767px) {
+				#container-1, #container-2 {
+					width:calc(100% - 20px);
+				}
+			}
+			h1 {
+				text-align:center;
+			}
